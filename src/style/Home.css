@@ -1,0 +1,483 @@
+.nav{
+background-color: rgba(96, 223, 202, 0.625);
+width: 100%;
+
+}
+.nav-list{
+    background-color: rgba(96, 223, 202, 0.625);
+}
+.night-mood{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 2px;
+    margin-right: 8px;
+    border: none;
+}
+.night-mood:hover{
+    background-color:  rgba(255, 255, 255, 0);
+}
+.img{
+    width: 100%;
+    height: 500px;
+}
+.content-list{
+    position: absolute;
+    color: black;
+    background-color: #e8e1e1;
+    /* padding: 15px; */
+    width: 38%;
+    right: 10px;
+    /* left: 10px; */
+    border-end-end-radius: 7px;
+    border-end-start-radius: 7px;
+    text-align: start;
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium',  Arial, sans-serif;
+}
+.list{
+border-bottom: 2px solid rgba(40, 39, 39, 0.337);
+padding: 8px;
+}
+.list-last{
+    border: none;
+}
+.list a:hover{
+    text-decoration: underline;
+}
+.Content-1{
+    width: 100%;
+    height: 400px;
+    /* display:inline-flex; */
+    background-color:#63c1d6a5;    
+}
+.content-1-card{
+    position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 13%;
+  border-top-left-radius: 30%;
+  border-end-end-radius: 30% ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+  margin-left: 15px;
+  background-image: url('https://i.postimg.cc/4NTsTVkN/it-student-in-laptop-fornt-in-office-student-look-upscaled.png');
+
+background-size: cover;
+
+
+}
+.content-1-card-2{
+    background-color: #63c1d6;
+    height: 60px;
+    width: 60px;
+    border-radius: 13%;
+  border-top-left-radius: 30%;
+  border-end-end-radius: 30% ;
+  box-shadow: inset;
+}
+
+/* .content-1-card::before,
+.content-1-card::after {
+  content: "";
+  position: absolute;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.content-1-card::before {
+    bottom: 100%;
+    border-bottom: 85px solid #CD5C5C;
+  }
+  .content-1-card::after {
+    top: 100%;
+    border-top: 85px solid #CD5C5C;
+  } */
+.content-1-card-image{
+    box-sizing: border-box; 
+        transition: all 1s; 
+    border: 0.4vh solid transparent; 
+    object-fit: contain;
+}
+
+.Content-2{
+    height: auto;
+    
+    padding: 46px;
+    padding-inline: 110px;
+}
+.Content-2 h1{
+    color: rgb(85, 84, 84);
+    padding-inline: 15px;
+    padding-left: 0;
+
+}
+.cource-details{
+    padding: 12px;
+    height: auto;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.cource{
+    height: 360px;
+    width: 29%;
+    background-color: rgba(252, 252, 252, 0.697);
+    border: 2px double white;
+    border-radius: 15px;
+    padding: 18px;
+    margin: 16px;
+}
+.view-all{
+    height: 360px;
+    width: 29%; 
+    padding: 18px;
+    margin: 16px;
+    align-items: center;
+  text-align: center;
+}
+.cource-includes{
+    font-size: small;
+    height: 55px;
+}
+.cource-duration{
+    font-size: small;
+    margin-top: 7px;
+    height: 50px;
+}
+.cource-heading{
+    height: 120px;
+}
+
+.cource:hover{
+    box-shadow: 2px 1px 12px 1px;
+    /* box-sizing:content-box; */
+    background-color: rgba(200, 196, 196, 0.949);
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+    border: none;
+}
+/* content-4-box*/
+.Content-4{
+    background-color: #39403b;
+    margin: 0;
+    padding: 15px;
+    min-height: 440px ;
+}
+
+.content-4-card-1{
+    width: 150px;
+    height: 150px;
+    background-image: url('https://i.postimg.cc/pV1xSs2V/patrick-amoy-6-Df-Ebkqs-Ti-A-unsplash.jpg');
+    background-size: 230px;
+    position: absolute;
+     margin-top: -205px;
+    margin-left: -50px;
+    box-shadow: 1px 1px 12px 1px;
+}
+.content-4-card-2{
+    width: 270px;
+    height: 270px;
+    background-color: #fffffff6;
+    background-size: 150px;
+    border-radius: 9px;
+    box-shadow: inset -5px -2px 12px   #a9a0a0,
+    inset -5px -5px 112px  #c2baba;
+
+}
+.content-4-card-4{
+    position: absolute;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(89, 104, 158);
+    border-radius: 5px;
+    margin-top: 385px;
+    animation: rotation 4s infinite linear;
+    /* animation-timing-function: infinite linear; */
+}
+.content-4-card-4-1{ 
+    position: absolute;  
+    align-items: center; 
+    width: 15px;
+    height: 15px;
+    background-color: rgb(217, 255, 0);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.content-4-card-5{
+    position: absolute;
+    padding: 2px;
+    width: 4px;
+    height: 4px;
+    background-color: rgb(35, 62, 162);
+    border-radius: 5px;
+    margin-top: 385px;
+    margin-right: 250px;
+    animation: rotation 2s infinite linear;
+    /* animation-timing-function: infinite linear; */
+}
+.content-4-card-5-1{ 
+    position: absolute;  
+    align-items: center; 
+    width: 15px;
+    height: 15px;
+    background-color: rgb(4, 255, 222);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.content-4-card-5-2{ 
+    position: absolute;  
+    align-items: center;
+    /* margin-left: 15px;  */
+    width: 15px;
+    height: 15px;
+    background-color: rgb(4, 255, 222);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.content-4-card-6{
+    position: absolute;
+    border-radius: 50%;
+    animation: rotation 4s  infinite linear ;
+    
+}
+.content-4-card-6-1{ 
+    position: absolute;
+    padding: 2px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 185px;
+    box-shadow: 12px 1px 12px 2px;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+      background-color: blueviolet;
+    }
+    to {
+      transform: rotate(359deg);
+      background-color: #00488c;
+    }
+  }
+.content-4-card-3{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+    background-image: url('https://i.postimg.cc/DZx2bY96/christopher-gower-m-HRf-Lhg-ABo-unsplash.jpg');
+    background-size: 230px;
+    box-shadow: 1px 1px 12px 1px;
+}
+.content-4-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.content-4-right{
+    padding: 0;
+    margin: 0;
+    /* height: 450px; */
+}
+.content-4-right-image{
+    height: 300px;
+}
+.content-4-right-image-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.img-div{
+    border-radius: 15px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, red,rgb(224, 190, 106), yellow);     ;
+}
+.img-div:hover{
+    transform: rotate(350deg);
+}
+.content-4-right-image-card img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 180px;
+    border-radius: 15px;
+    
+    
+}
+.content-4-right-image-card img:hover{
+    
+    transform: scale(1.05) rotate(10deg);
+    transition: 0.2s ease-in-out;
+    
+}
+.content-4-right-image-card-left{
+    padding: 5px;
+    text-align: start;
+   padding-top: 29px;
+}
+.footer{
+    /* width: 100%; */
+    background-color: #fff;
+    padding: 10px;
+    
+}
+.footer-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px;
+margin: 0 0 5px;
+}
+.footer-content{
+    width:270px;
+    padding: 4px;
+    display:inline-block;
+    margin: 0;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+.footer-content .footer-link-box{
+    padding: 2px;
+    margin: 0 0 5px;
+    color: rgb(37, 37, 31);
+    width: 150px;
+    
+    
+}
+.footer-content .footer-link-box:hover{
+    border-bottom: 2px solid #63c1d6ca;
+    cursor: pointer;
+}
+.footer-link{
+    font-size: small;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #535151;
+    text-decoration: none;
+}
+.footer-image-box{
+    margin-left: 5px;
+    margin-bottom: 8px;
+    padding: 2px;
+}
+.footer-image-link{
+    /* width: 5px; */
+    margin: 4px;
+}
+.footer-logo{
+    width: 10%;
+}
+.footer-contect-box{
+    padding: 1px 13px 1px ;
+    width: 60%;
+}
+.footer-connect-content{
+    font-style: italic;
+    font-weight: 450;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 14px;
+}
+.footer-contact-link a{
+    font-size: 14px;
+    color:  #4ba9be;
+    text-decoration: none;
+}
+/* logo */
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* whatsapp chat box */
+.chat-box{
+    position:fixed;
+    height: 50px;
+    text-align: end;
+    bottom: 70px;
+    right: 20px;
+}
+.edit-delete{
+    display: flex;
+    justify-content: space-between;
+}
+/* text animation  */
+.Content-1 .text-center{
+    animation: scrollText 15s linear infinite;
+ }
+@media only screen and (min-width: 767px){
+    .view-all{
+        height: 30px;
+    }
+    .cource-heading{
+        height: 145px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .Content-4{
+        min-height: 900px ;
+    }
+    .content-4-left{
+        height: 430px;
+    }
+    .content-4-right-image{
+        min-height: 480px;
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 1027px ){
+    .cource-heading{
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 575.5px ){
+    .cource-details{
+        padding-inline: 40px;
+    }
+    .cource{
+        height: auto;
+    }
+
+    .cource-heading{
+        height: 80px;
+    }
+    .view-all{
+        height: 30px;
+    }
+    .Content-2{     
+        padding: 26px;
+        padding-inline: 50px;
+    }
+    .logo-name{
+        display: none;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (min-width: 1327px ){
+    .content-list{
+        position: relative;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        right: 0;
+        padding: 0px 26%;
+        border: 1px;
+    }
+   
+}
+
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

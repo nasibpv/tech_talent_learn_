@@ -1,0 +1,48 @@
+
+  .overlay {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    background-color: #ffffff00;
+    width: 100%;
+    /* height: 100%; */
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .logout-alert {
+    background-color: #857f7f;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .handleConfirmLogout,.handleCancelLogout {
+    padding: 10px 20px;
+    font-size: 16px;
+    
+  }
+ .handleCancelLogout:hover {
+    color: black;
+    
+  }
+ .handleConfirmLogout:hover {
+    color: black;
+    
+  }
+  .handleConfirmLogout{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    margin-right: 4px;
+  }
+  
+ .handleCancelLogout {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+  }

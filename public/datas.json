@@ -1,0 +1,478 @@
+{
+    
+    "users": [
+      {
+        "id": "1",
+        "usertype": "admin",
+        "email": "admin@.com",
+        "password": "111",
+        "name":"admin"
+      },
+      {
+        "id": "2",
+        "usertype": "staff",
+        "email": "email@.com",
+        "password": "123",
+        "name":"nithin"
+      },
+      {
+        "id": "2",
+        "usertype": "student",
+        "email": "email@.com",
+        "password": "321",
+        "name":"nithin"
+
+      }
+    ],
+    "staff": [
+      
+        { 
+          "staffId":"001",
+          "name": "akil",
+          "email": "email@.com",
+          "phoneNumber": "00000",
+          "department":"BCA",
+          "cources":[
+            {
+              "cource":"mearn"
+            },
+            {
+              "cource":"python"
+            }
+          ]
+        },
+        {
+          "staffId":"002",
+            "name": "vimal",
+            "age":"21",
+            "gender":"male",
+            "dob":"21-03-2001",
+            "address":"vimal house pattanur",
+            "place":"pattanur",
+            "pin":"670555",
+            "phoneNumber": "00000",
+            "email": "email@.com",
+            "cources":[
+              {
+                "cource":"mearn"
+              },
+              {
+                "cource":"python"
+              }
+            ]
+          },
+          {
+            "staffId":"003",
+            "name": "akil",
+            "email": "email@.com",
+            "phoneNumber": "00000",
+            "department":"B-com"
+          }
+      ],
+      "student": [
+        {
+          "studentId":"002",
+            "name": "nasib",
+            "age":"22",
+            "gender":"male",
+            "dob":"23-03-2001",
+            "address":"zainas villa irikkur,",
+            "place":"irikkur",
+            "pin":"670593",
+            "phoneNumber": "8078210951",
+            "email": "nasibnpv@gmail.com",
+            "password":"nasib951002",
+            "cource":"flutter"
+          },
+        {
+          "name": "ninihalthin",
+          "email": "email@.com",
+          "ph.no": "00000",
+          "cource":"flutter"
+        },
+        {
+          "name": "shibili",
+          "email": "email@.com",
+          "ph.no": "00000",
+          "cource":"flutte"
+        },
+        {
+            "name": "akil",
+            "email": "email@.com",
+            "ph.no": "00000",
+            "cource":"mearn"
+          },
+          {
+            "name": "nivinilhin",
+            "email": "email@.com",
+            "ph.no": "00000",
+            "cource":"mearn"
+          }
+      ],
+      "leave": [
+        {
+          "name": "nithin",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "aprove",
+          "leaveDate":"21-03-2023",
+          "date":"20-03-2023",
+          "day":"monday",
+          "department":"bca",
+          "usertype":"staff"
+        },
+        {
+          "name": "aaa",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "",
+          "leaveDate":"21-03-2023",
+          "date":"20-03-2023",
+          "day":"monday",
+          "department":"bca",
+          "usertype":"staff"
+        },
+        {
+          "name": "akil",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "",
+          "leaveDate":"21-03-2023",
+          "date":"20-03-2023",
+          "day":"monday",
+          "department":"bca",
+          "usertype":"student"
+        },
+        {
+          "name": "bbb",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "aprove",
+          "leaveDate":"21-03-2023",
+          "date":"20-03-2023",
+          "day":"monday",
+          "department":"bca",
+          "usertype":"student"
+        }
+        ,
+        {
+          "name": "ccc",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "reject",
+          "leaveDate":"21-03-2023",
+          "date":"20-03-2023",
+          "day":"monday",
+          "department":"bca",
+          "usertype":"student"
+        }
+
+      ],
+      "stAttendance": [
+        {
+          "days": [
+            {
+              "date": "October 26, 2016"
+            },
+            {
+              "date": "October 27 2016"
+            },
+            {
+              "date": "October 28 2016"
+            },
+            {
+              "date": "October 29, 2016"
+            },
+            {
+              "date": "October 30, 2016"
+            },
+            {
+              "date": "October 29, 2016"
+            },
+            {
+              "date": "October 29, 2016"
+            }
+          ]
+        },
+        
+        {
+          "id": 1,
+          "name": "nasib",
+          "neighborhood": "Manhattan",
+          "email":"nasibnpv@gmail.com",
+          "cource":"mearn",
+          "attendance": [
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "akil",
+          "cource":"mearn",
+          "attendance": [
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            }
+            
+          ]
+         
+        },
+        {
+          "id": 3,
+          "name": "nivi",
+          "neighborhood": "Manhattan",
+          "cource":"python",
+          "attendance": [
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            }
+          ]
+        }
+       
+      ],
+      "staffAttendance": [
+        {
+          "days": [
+            {
+              "date": "October 26, 2016"
+            },
+            {
+              "date": "October 27 2016"
+            },
+            {
+              "date": "October 28 2016"
+            },
+            {
+              "date": "October 29, 2016"
+            },
+            {
+              "date": "October 30, 2016"
+            },
+            {
+              "date": "October 29, 2016"
+            },
+            {
+              "date": "October 29, 2016"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "vinil",
+          "neighborhood": "Manhattan",
+          "cource":"python",
+          "attendance": [
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "mahija",
+          "cource":"mearn",
+          "attendance": [
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            }
+            
+          ]
+         
+        },
+        {
+          "id": 3,
+          "name": "geetha",
+          "neighborhood": "Manhattan",
+          "cource":"mearn",
+          "attendance": [
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Absent",
+              "date": "October 26, 2016"
+            },
+            {
+              "status": "Present",
+              "date": "October 26, 2016"
+            }
+          ]
+        }
+       
+      ],
+      "complaint":[
+        {
+          "name": "nithin",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "",
+          "reply-date":"21-03-2023",
+          "reply":"",
+          "date":"20-03-2023",
+          "day":"monday",
+          "cource":"bca",
+          "usertype":"staff"
+        },
+        {
+          "name": "aaa",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "view",
+          "reply-date":"21-03-2023",
+          "reply":"exrdctfvygbuhnjm   21122211 mjbv",
+          "date":"20-03-2023",
+          "day":"monday",
+          "cource":"bca",
+          "usertype":"staff"
+        },
+        {
+          "name": "akil",
+          "reason": "i am tommoro going hospitel i need leave in tommoro",
+          "status": "",
+          "replyDate":"21-03-2023",
+          "reply":"",
+          "date":"20-03-2023",
+          "day":"monday",
+          "cource":"bca",
+          "usertype":"staudent"
+        }
+      ]
+  }
+  
